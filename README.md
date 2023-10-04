@@ -1,6 +1,6 @@
 # Developing a Simple Webserver
 
-Name: Sanjana
+Name: R.Sanjana
 Reg No: 23008112
 
 # AIM:
@@ -29,9 +29,10 @@ Serving the HTML pages.
 
 Testing the webserver
 # PROGRAM:
+
 Type your code here
 # OUTPUT:
-
+![](/images/webserver1.png)
 # RESULT:
 
 The program is executed succesfully
