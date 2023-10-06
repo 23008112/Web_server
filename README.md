@@ -58,6 +58,7 @@ httpd.server_forever()
 # OUTPUT:
 ![Alt text](images/webserver1.png)
 
+![webserver1](https://github.com/23008112/Web_server/assets/138972470/48d67a0e-9ef1-4ec1-a5c8-79762e07833d)
 
 # RESULT:
 
