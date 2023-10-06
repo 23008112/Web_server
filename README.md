@@ -2,6 +2,7 @@
 
 Name: R.Sanjana
 Reg No: 23008112
+Department:B tech. AI & ML
 
 # AIM:
 
@@ -29,10 +30,35 @@ Serving the HTML pages.
 
 Testing the webserver
 # PROGRAM:
-
 Type your code here
+```
+from http.server import HTTPServer, Base HTTPRequestHandler
+content = """  
+<html>
+<head>
+</head>
+<body>
+<h1>Welcome</h1>
+</body>
+</html>
+"""
+
+class HelloHandler(BaseGTTPRequestHandler):
+    def do_GET(self):
+    self.send_response(200)
+    self.send_header('content-type','text/html;charset=utf-8')
+    self.end_headers()
+    self.wfile.write(content.encode())
+
+server_address = ('',80)
+httpd = HTTPServer(Server_address, HelloHandler)
+httpd.server_forever()
+ ```
+
 # OUTPUT:
-![](/images/webserver1.png)
+![Alt text](images/webserver1.png)
+
+
 # RESULT:
 
 The program is executed succesfully
